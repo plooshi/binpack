@@ -3,7 +3,7 @@ $(error Use the main Makefile)
 endif
 
 SUBPROJECTS    += toybox
-TOYBOX_VERSION := 0.8.6
+TOYBOX_VERSION := 0.8.8
 
 toybox-setup: setup
 	$(call GITHUB_ARCHIVE,landley,toybox,$(TOYBOX_VERSION),$(TOYBOX_VERSION))
